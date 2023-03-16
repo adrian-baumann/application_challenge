@@ -2,14 +2,16 @@
 name = "polyteia challenge"
 version = "0.1.0"
 description = ""
-authors = ["Adrian <adrian.moritz@mail.de>"]
+authors = [""]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
 pandas = "^1.5.3"
 matplotlib = "^3.7.1"
+pyspark = "^3.3.2"
 seaborn = "^0.12.2"
+pyarrow = {extras = ["sql"], version = "^11.0.0"}
 
 
 [tool.poetry.group.dev.dependencies]

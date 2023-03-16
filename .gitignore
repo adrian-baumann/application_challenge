@@ -1,0 +1,6 @@
+# private setup
+.envrc
+.vscode
+
+# folders
+data
